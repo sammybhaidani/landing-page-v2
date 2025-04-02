@@ -92,6 +92,10 @@ li.nav-link {
   border-radius: 10px;
 }
 
+.info-section {
+  padding: 2rem;
+}
+
 .info-header-text {
   font-size: 36px;
   font-weight: 900;
@@ -123,4 +127,28 @@ li.nav-link {
   border-radius: 12px;
   width: 200px;
   height: 250px;
+}
+
+.testimonial-section {
+  background-color: #E5E7EB;
+  padding: 60px;
+  margin-top: 30px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1F2937;
+}
+
+.quote-author {
+  font-weight: 600;
+  font-size: 25px;
+  align-self: flex-end;
 }
