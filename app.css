@@ -110,6 +110,7 @@ li.nav-link {
   justify-content: center;
   gap: 50px;
   margin-top: 30px;
+  padding: 20px;
 }
 
 .info-item {
@@ -131,7 +132,7 @@ li.nav-link {
 
 .testimonial-section {
   background-color: #E5E7EB;
-  padding: 60px;
+  padding: 90px;
   margin-top: 30px;
 }
 
@@ -145,10 +146,43 @@ li.nav-link {
   font-style: italic;
   font-weight: 200;
   color: #1F2937;
+  padding: 30px;
 }
 
 .quote-author {
   font-weight: 600;
   font-size: 25px;
   align-self: flex-end;
+}
+
+.cta-section {
+  padding: 80px;
+}
+
+.cta-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3882F6;
+  padding: 3rem;
+  border-radius: 5px;
+}
+
+.cta-primary-text {
+  color: #F9FAF8;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.cta-secondary-text {
+  color: #E5E7EB;
+}
+
+.cta-sign-up-button {
+  color: #F9FAF8;
+  border: solid 2px #F9FAF8;
+  padding: 8px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
 }
